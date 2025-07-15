@@ -1,4 +1,5 @@
 .dadosDolar,
+.dadosEuro,
 .dadosIene {
     margin: 3em auto;
     padding: 2em;
@@ -31,6 +32,10 @@
 
 .grafico__ilustracao-iene {
     background-image: url('../imagens/iene.png');
+}
+
+.grafico__ilustracao-euro {
+    background-image: url('../imagens/Euro.png');
 }
 
 .grafico__titulo h2 {
