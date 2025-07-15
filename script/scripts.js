@@ -18,4 +18,12 @@ async function conectaAPI() {
     console.log(conectaTraduzido);
 }
 
+function geraHorario() {
+    let data = new Date();
+    let horario = data.getHours() + ":" + data.getMinutes() + ":" + data.getSeconds();
+    console.log(horario);
+    return horario;
+}
+
+geraHorario()
 setInterval(() => conectaAPI(), 5000);
